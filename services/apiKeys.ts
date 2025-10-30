@@ -44,8 +44,30 @@ export const CURRENCY_API_KEY = "your_currency_api_key_here"; //Replace with you
 //
 export const GOOGLE_MAPS_API_KEY = "your_google_maps_api_key_here"; //Replace with your own Google Maps API key
 
-// step 2: update your apiKeys.ts file to read the credentials from the .env file like this:
 
+
+
+
+// ******************************************************************************* 
+// Alternate way to store your Firebase and other API credentials using .env file
+// this is a better way to store your credentials because it is not stored in the code and is therefore more secure
+// this is also a better way to store your credentials because it is not stored in the code and is therefore more secure
+// ===============================================================================
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// step 1: create a .env file in the root of your project and add the following:
+// VITE_API_KEY=your_api_key_here
+// VITE_AUTH_DOMAIN=your_auth_domain_here
+// VITE_PROJECT_ID=your_project_id_here
+// VITE_STORAGE_BUCKET=your_storage_bucket_here
+// VITE_MESSAGING_SENDER_ID=your_messaging_sender_id_here
+// VITE_APP_ID=your_app_id_here
+// vite_currency_api_key=your_currency_api_key_here
+// vite_google_maps_api_key=your_google_maps_api_key_here
+
+
+// step 2: update your apiKeys.ts file to read the credentials from the .env file like this:
 
 // export const firebaseConfig = {  
 //  apiKey: import.meta.env.VITE_API_KEY,
