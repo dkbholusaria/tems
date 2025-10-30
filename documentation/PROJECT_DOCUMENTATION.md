@@ -1,6 +1,6 @@
 # Comprehensive Project Documentation
-## Travel & Expense Management System (TEMS) v1.2
-## Copyright (c) 2025, Deepak Bhholusaria. All rights reserved.
+### Travel & Expense Management System (TEMS)
+# Copyright (c) 2025, Deepak Bhholusaria. All rights reserved.
 
 <br/>
 
