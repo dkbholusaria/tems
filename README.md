@@ -6,8 +6,6 @@
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MMeX_sVOAeDpNaIIImR23CgwjkmUjYOL
-
 ## Project Documentation
 
 For a complete and in-depth guide covering the project's architecture, database schema, features, and API implementation, please see the [Comprehensive Project Documentation](./documentation/PROJECT_DOCUMENTATION.md).
