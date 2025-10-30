@@ -1,0 +1,7 @@
+{
+  "name": "Travel & Expense Management System (TEMS) v1.2",
+  "description": "An AI-enabled Travel & Expense Management System for Chartered Accountants, built with React and Firebase. This system allows employees to manage expenses and employers to approve them efficiently.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
